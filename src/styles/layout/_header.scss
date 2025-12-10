@@ -1,0 +1,22 @@
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  padding-block: 47px;
+}
+
+.header__content, .header__nav-list, .header__actions {
+  display: flex;
+}
+
+.header__content {
+  justify-content: space-between;
+}
+
+.header__actions, .header__nav-list {
+  gap: 35px;
+}
+
+.header__nav-link {
+  color: $white;
+}
