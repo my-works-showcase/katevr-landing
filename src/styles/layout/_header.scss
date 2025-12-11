@@ -7,6 +7,7 @@
 
 .header__content, .header__nav-list, .header__actions {
   display: flex;
+  align-items: center;
 }
 
 .header__content {
@@ -19,4 +20,5 @@
 
 .header__nav-link {
   color: $white;
+  font-weight: 500;
 }
