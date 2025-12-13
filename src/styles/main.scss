@@ -1,14 +1,15 @@
 // Base
-@import 'base/reset';
-@import 'base/variables';
-@import 'base/mixins';
-@import 'base/globals';
+@use './base/reset';
+@use './base/variables';
+@use './base/mixins';
+@use './base/globals';
 
 // Layout
-@import 'layout/header';
-@import 'layout/footer';
-@import 'layout/hero';
+@use './layout/header';
+@use './layout/footer';
+@use './layout/hero';
 
-// components
-@import 'components/_button';
-@import 'components/_cta-button';
+// Components
+@use './components/button';
+@use './components/cta-button';
+@use './components/hero__video-button';
