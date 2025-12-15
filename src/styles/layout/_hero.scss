@@ -1,6 +1,7 @@
 @use '../base/variables' as *;
 
 .hero {
+  height: 100vh;
   padding: 196px 0 84px;
   background: linear-gradient(130deg, #191536 0%, #000000 100%);
 }
