@@ -12,6 +12,7 @@
 
 
 .hero__left {
+  margin-bottom: 212px;
   width: 552px;
   display: flex;
   flex-direction: column;
@@ -19,6 +20,7 @@
 
 .hero__title {
   margin-bottom: 19px;
+  margin-left: 24px;
   font-weight: 900;
   font-size: 54px;
   line-height: 130%;
@@ -31,6 +33,8 @@
 
 .hero__description {
   margin-bottom: 30px;
+  margin-left: 116px;
+  max-width: 400px;
   font-size: 20px;
   color: $text-color;
   line-height: 150%;
@@ -38,11 +42,13 @@
 
 .hero__price {
   margin-bottom: 36px;
+  margin-left: 116px;
   font-size: 20px;
 }
 
 .hero__right {
   position: absolute;
+  left: 360px;
   width: 1104px;
   height: 595px;
 }
