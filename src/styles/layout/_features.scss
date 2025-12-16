@@ -50,3 +50,25 @@
   color: $text-color;
   line-height: 150%;
 }
+
+.feature__icon {
+  margin-bottom: 30px;
+  width: 98px;
+  height: 98px;
+}
+
+.education__icon {
+  background-image: url('../assets/images/features/education-icon.svg');
+}
+
+.real-estate__icon {
+  background-image: url('../assets/images/features/real-estate-icon.svg');
+}
+
+.fitness__icon {
+  background-image: url('../assets/images/features/fitness-icon.svg');
+}
+
+.interactions__icon {
+  background-image: url('../assets/images/features/social-interactions-icon.svg');
+}
