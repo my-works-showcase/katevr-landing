@@ -1,3 +1,20 @@
+@use '../base/variables' as *;
+
 .about {
   background: linear-gradient(130deg, #191536 0%, #000000 100%);
+}
+
+.about__content {
+  padding: 157px 0 146px;
+}
+
+.about-product__title {
+  margin-bottom: 60px;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.about-product__title span {
+  color: $accent-color;
+  font-weight: 400;
 }

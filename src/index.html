@@ -123,27 +123,33 @@
       <section class="about">
         <div class="container">
           <div class="about__content">
-            <div class="about__slider">
-              <p class="about__current-slide"></p>
-              <div class="slider__viewport">
-                <img class="slider__image" src="./assets/images/about/slide-1.png" alt="image 1" />
+            <div class="about__top grid">
+              <div class="about__slider">
+                <p class="about__current-slide">1/5</p>
+                <div class="slider__viewport">
+                  <img
+                    class="slider__image"
+                    src="./assets/images/about/slide-1.png"
+                    alt="image 1"
+                  />
+                </div>
+                <div class="slider__status-bar">
+                  <button type="button" class="slider__btn slider__btn--prev">Previous</button>
+                  <button type="button" class="slider__btn slider__btn--next">Next</button>
+                </div>
               </div>
-              <div class="slider__status-bar">
-                <button type="button" class="slider__btn slider__btn--prev">Previous</button>
-                <button type="button" class="slider__btn slider__btn--next">Next</button>
+              <div class="about__product">
+                <h2 class="about-product__title">ABOUT <span>PRODUCT</span></h2>
+                <p class="about-product__description">
+                  KAT loco is a foot-based VR locomotion system that gives complete physical control
+                  over lower-body actions, allowing you to freely walk, run, and carry out just any
+                  other movement in virtual reality.
+                </p>
+                <button class="play-video__button"></button>
               </div>
-            </div>
-            <div class="about__product">
-              <h2 class="about-product__title">ABOUT <span>PRODUCT</span></h2>
-              <p class="about-product__description">
-                KAT loco is a foot-based VR locomotion system that gives complete physical control
-                over lower-body actions, allowing you to freely walk, run, and carry out just any
-                other movement in virtual reality.
-              </p>
-              <button class="play-video__button"></button>
             </div>
 
-            <div class="about__us">
+            <div class="about__us grid">
               <div class="about-us__content">
                 <p class="about-us__greeting">Hello,</p>
                 <h2 class="about-us__title">NICE TO MEET <span>YOU!</span></h2>
