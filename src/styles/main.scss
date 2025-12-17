@@ -9,8 +9,9 @@
 @use './layout/footer';
 @use './layout/hero';
 @use './layout/_features';
+@use './layout/about';
 
 // Components
 @use './components/button';
 @use './components/cta-button';
-@use './components/hero__video-button';
+@use './components/play-video-button';
