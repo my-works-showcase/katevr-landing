@@ -1,0 +1,59 @@
+@use '../base/variables' as *;
+
+.benefits {
+  background-color: $background-black;
+}
+
+.benefits__content {
+  padding-block: 160px;
+}
+
+.benefits__title {
+  margin-bottom: 140px;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.benefits__title span {
+  font-size: 36px;
+  font-weight: 400;
+  color: $accent-color;
+}
+
+.benefits__description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.benefits__main-poster {
+  width: 312px;
+  height: 294px;
+  background-image: url('../assets/images/benefits/main-poster.png');
+}
+
+.benefits__buttons {
+  position: relative;
+}
+
+.benefits__button {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  background-image: url('../assets/icons/benefit-open-button.svg');
+}
+
+.sensor-description {
+  left: 58px;
+  bottom: -32px;
+}
+
+.batterries-description {
+  left: 236px;
+  bottom: -178px;
+}
+
+.connection-description {
+  left: -42px;
+  bottom: -270px;
+}
