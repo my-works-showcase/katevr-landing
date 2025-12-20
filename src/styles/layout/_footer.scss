@@ -15,3 +15,38 @@
   display: flex;
   gap: 45px;
 }
+
+.footer__nav-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: $white;
+}
+
+.socials__list {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.social__link {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.facebook {
+  background-image: url('../assets/icons/facebook.svg');
+}
+
+.twitter {
+  background-image: url('../assets/icons/x.svg');
+}
+
+.you-tube {
+  background-image: url('../assets/icons/you-tube.svg');
+}
+
+.reddit {
+  background-image: url('../assets/icons/reddit.svg');
+}
