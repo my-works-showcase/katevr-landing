@@ -1,2 +1,9 @@
 @use '../base/variables' as *;
 
+.contacts {
+  background-color: $background-black;
+}
+
+.contacts__content {
+  padding-block: 160px;
+}
