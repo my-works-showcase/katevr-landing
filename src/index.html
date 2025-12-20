@@ -39,7 +39,7 @@
                   <a href="#" class="header__nav-link">Benefits</a>
                 </li>
                 <li class="header__nav-item">
-                  <a href="#" class="header__nav-link">Contact</a>
+                  <a href="#" class="header__nav-link">contacts</a>
                 </li>
               </ul>
             </nav>
@@ -227,37 +227,72 @@
       <section class="contacts">
         <div class="container">
           <div class="contacts__content grid">
-            <div class="contacts__left">
-              <p class="contact__eyebrow">Have any questions?</p>
+            <div class="contacts__left grid--onDesktop-1-8">
+              <p class="contacts__eyebrow">Have any questions?</p>
 
-              <h2 class="contact__title">Get in <span class="contact__accent">Touch</span></h2>
+              <h2 class="contacts__title">GET IN <span>TOUCH</span></h2>
 
-              <p class="contact__description">Our manager will reply you within 15 minutes</p>
+              <p class="contacts__description">Our manager will reply you within 15 minutes</p>
               <ul class="contacts__list">
-                <li class="contacts__item mobile">+86-0571-86105373</li>
-                <li class="contacts__item e-mail-1">global@katvr.com</li>
-                <li class="contacts__item e-mail-2">overseas@katvr.com</li>
+                <li class="contacts__item contacts__item--phone">
+                  <a href="tel:+86057186105373" class="contacts__link"> +86-0571-86105373 </a>
+                </li>
+
+                <li class="contacts__item contacts__item--email">
+                  <a href="mailto:global@katvr.com" class="contacts__link"> global@katvr.com </a>
+                </li>
+
+                <li class="contacts__item contacts__item--email">
+                  <a href="mailto:overseas@katvr.com" class="contacts__link">
+                    overseas@katvr.com
+                  </a>
+                </li>
               </ul>
             </div>
-            <div class="contacts__right">
-              <form class="contact-form">
-                <div class="contact-form__field">
-                  <input type="text" class="contact-form__input" placeholder="Name*" />
+            <div class="contacts__right grid--onDesktop-9-16">
+              <form class="contacts-form">
+                <div class="contacts-form__field">
+                  <input
+                    type="text"
+                    name="name"
+                    class="contacts-form__input"
+                    placeholder="Name*"
+                    required
+                  />
                 </div>
 
-                <div class="contact-form__field">
-                  <input type="email" class="contact-form__input" placeholder="Email*" />
+                <div class="contacts-form__field">
+                  <input
+                    type="email"
+                    name="email"
+                    class="contacts-form__input"
+                    placeholder="Email*"
+                    required
+                  />
                 </div>
 
-                <div class="contact-form__field">
-                  <input type="tel" class="contact-form__input" placeholder="Phone*" />
+                <div class="contacts-form__field">
+                  <input
+                    type="tel"
+                    name="phone"
+                    class="contacts-form__input"
+                    placeholder="Phone*"
+                  />
                 </div>
 
-                <div class="contact-form__field contact-form__field--message">
-                  <textarea class="contact-form__textarea" placeholder="Message"></textarea>
+                <div class="contacts-form__field contacts-form__field--message">
+                  <textarea
+                    name="message"
+                    class="contacts-form__textarea"
+                    placeholder="Message"
+                  ></textarea>
                 </div>
 
-                <button class="contact-form__submit button">Contact Us</button>
+                <div class="contacts-form__actions">
+                  <button type="submit" class="contacts-form__submit button">Contact Us</button>
+
+                  <button type="button" class="to-top__button bgd-img" aria-label="Scroll to top"></button>
+                </div>
               </form>
             </div>
           </div>
