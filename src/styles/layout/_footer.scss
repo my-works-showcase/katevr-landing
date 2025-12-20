@@ -1,0 +1,17 @@
+@use '../base/variables' as *;
+
+.footer {
+  background-color: $background-black;
+}
+
+.footer__content {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding-block: 44px;
+}
+
+.footer__nav-list {
+  display: flex;
+  gap: 45px;
+}
