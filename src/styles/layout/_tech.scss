@@ -1,0 +1,59 @@
+@use '../base/variables' as *;
+
+.tech {
+  background-color: $background-black;
+}
+
+.tech__content {
+  padding-block: 160px;
+}
+
+.tech__title {
+  margin-bottom: 140px;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.tech__title span {
+  font-size: 36px;
+  font-weight: 400;
+  color: $accent-color;
+}
+
+.tech__description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tech__main-poster {
+  width: 312px;
+  height: 294px;
+  background-image: url('../assets/images/tech/main-poster.png');
+}
+
+.tech__buttons {
+  position: relative;
+}
+
+.tech__button {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  background-image: url('../assets/icons/tech-open-button.svg');
+}
+
+.sensor-description {
+  left: 58px;
+  bottom: -32px;
+}
+
+.batterries-description {
+  left: 236px;
+  bottom: -178px;
+}
+
+.connection-description {
+  left: -42px;
+  bottom: -270px;
+}
