@@ -120,23 +120,23 @@
   right: 20px;
 }
 
-/*.tech-point--sensor::before {
+.tech-point::before, .tech-point::after {
   content: '';
   background-color: $accent-color;
+  position: absolute;
+}
+
+.tech-point--sensor::before {
   width: 340px;
   height: 1px;
-  position: absolute;
-  top: -40px;
-  right: -242px;
+  top: -31px;
+  right: -240px;
 }
 
 .tech-point--sensor::after {
-  content: '';
-  background-color: $accent-color;
   width: 1px;
-  height: 60px;
-  position: absolute;
-  top: -40px;
-  right: -242px;
-}*/
+  height: 50px;
+  top: -31px;
+  right: -240px;
+}
 
