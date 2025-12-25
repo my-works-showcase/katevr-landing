@@ -86,7 +86,41 @@
   left: -280px;
 }
 
-.tech-point--sensor::before {
+.tech-point--connection {
+  top: 220px;
+  left: -280px;
+}
+
+.tech-point--batterries {
+  max-width: 344px;
+  top: 10px;
+  right: -500px;
+}
+
+.tech-point__end {
+  position: relative;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: $accent-color;
+}
+
+.tech-point--sensor .tech-point__end {
+  bottom: 34px;
+  left: 88px;
+}
+
+.tech-point--connection .tech-point__end {
+  bottom: 34px;
+  left: 140px;
+}
+
+.tech-point--batterries .tech-point__end {
+  bottom: 34px;
+  right: 20px;
+}
+
+/*.tech-point--sensor::before {
   content: '';
   background-color: $accent-color;
   width: 340px;
@@ -104,4 +138,5 @@
   position: absolute;
   top: -40px;
   right: -242px;
-}
+}*/
+
