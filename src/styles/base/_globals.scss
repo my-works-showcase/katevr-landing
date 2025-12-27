@@ -8,6 +8,10 @@ html, body {
   color: $white;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .container {
   max-width: 1452px;
   margin: 0 auto;

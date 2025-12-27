@@ -65,7 +65,12 @@
 
               <span class="hero__price">1200$</span>
 
-              <button class="play-video__button"></button>
+              <button
+                class="play-video__button"
+                class="play-video__button"
+                data-video="https://www.youtube.com/embed/kPFhmWQwXMI"
+                aria-label="Смотреть видео"
+              ></button>
             </div>
 
             <div class="hero__right">
@@ -203,7 +208,7 @@
                   <div class="tech-point__end"></div>
                   <h3 class="tech-point__title">BATTERRIES</h3>
                   <ul class="tech-point__list">
-                    <li>Type: Lthium-lon polymer batteries </li>
+                    <li>Type: Lthium-lon polymer batteries</li>
                     <li>Capacity: 370mAh</li>
                     <li>Battery life: 10h of continuous use 150 hours on stand by</li>
                     <li>Charging: Fast charging - 1 hour</li>
@@ -366,5 +371,24 @@
         </div>
       </div>
     </footer>
+    <div class="modal" id="videoModal">
+      <div class="modal__overlay"></div>
+
+      <div class="modal__content">
+        <button class="modal__close" aria-label="Закрыть">✕</button>
+
+        <div class="modal__video">
+          <iframe
+            id="modalFrame"
+            src="about:blank"
+            title="Video"
+            frameborder="0"
+            allow="autoplay; encrypted-media; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <script src="../src/js/main.js" defer></script>
   </body>
 </html>
