@@ -33,6 +33,16 @@
   background-image: url('../assets/images/tech/main-poster.png');
 }
 
+.tech__main-poster::before {
+  position: relative;
+  top: 48px;
+  content: '';
+  display: block;
+  width: 37px;
+  height: 200px;
+  background-image: url('../assets/icons/elipse-tech.svg');
+}
+
 .tech__buttons {
   position: relative;
   display: none;
@@ -120,7 +130,8 @@
   right: 20px;
 }
 
-.tech-point::before, .tech-point::after {
+.tech-point::before,
+.tech-point::after {
   content: '';
   background-color: $accent-color;
   position: absolute;
@@ -140,3 +151,23 @@
   right: -240px;
 }
 
+.tech-point--batterries::before {
+  width: 148px;
+  height: 1px;
+  top: 154px;
+  left: -164px;
+}
+
+.tech-point--batterries::after {
+  width: 1px;
+  height: 185px;
+  top: -30px;
+  left: -17px;
+}
+
+.tech-point--connection::before {
+  width: 130px;
+  height: 1px;
+  top: -31px;
+  left: 146px;
+}
